@@ -1,6 +1,9 @@
 # Where I left
 
 # Todo
+- Add navigation
+- Add scaleable timeline
+- Grid for years
 
 # Problems
 
@@ -9,3 +12,15 @@
 >> Assume Unchanged
 
 # Completed
+
+# Nomenclature Hierarchy
+
+
+# Structure
+
+- Header
+- Menu Tray
+- Navigation
+- Content
+- Footer
+- Scripts
