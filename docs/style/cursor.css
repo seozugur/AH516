@@ -1,0 +1,59 @@
+#cadCursor {
+  float: right;
+  width: 80%;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 10;
+  cursor: none;
+}
+
+.top {
+  will-change: transform;
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  transform: translateY(50vh);
+  border: none;
+  /* border-bottom: 1px solid white; */
+}
+
+.left {
+  will-change: transform;
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100vh;
+  transform: translateX(50vw);
+  border: none;
+  border-right: 1px solid rgba(255, 255, 255, .4);
+}
+
+.picker {
+  /* will-change: transform; */
+  border: 1px solid white;
+  background: white;
+  width: .2rem;
+  height: .2rem;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  /* transform: translate(50vw, 50vh); */
+  margin: 0 0 0 -.1rem;
+}
+
+/* #marko {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: black;
+    cursor: none;
+  } */
