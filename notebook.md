@@ -19,6 +19,12 @@
 # Links
 Custom Cursor
 https://youtu.be/rfpRZ2t_BrQ
+UI elements
+https://www.usability.gov/how-to-and-tools/methods/user-interface-elements.html
+Multi Handle Slider
+https://www.youtube.com/watch?v=1lsMbY4x89Q
+Example
+http://histography.io/
 
 
 # Structure
