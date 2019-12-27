@@ -1,6 +1,4 @@
 # Where I left
-Custom Cursor
-https://youtu.be/rfpRZ2t_BrQ
 
 # Todo
 - Add navigation
@@ -10,12 +8,17 @@ https://youtu.be/rfpRZ2t_BrQ
 # Problems
 
 # Reminders
+-active
 
 >> Assume Unchanged
 
 # Completed
 
 # Nomenclature Hierarchy
+
+# Links
+Custom Cursor
+https://youtu.be/rfpRZ2t_BrQ
 
 
 # Structure

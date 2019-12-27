@@ -17,57 +17,73 @@
             <img src="sources/icons/tray.png" alt="menu" width="20px" height="20px" onclick="toggleNav()">
             <!-- &#9776; -->
         </div>
+
+        <div class="menu-about">
+            <img src="sources/icons/about.png" alt="menu" width="20px" height="20px" onclick="toggleBlackOut()">
+        </div>
+
+        <div class="void" id="tray-void">
+            <!--  -->
+        </div>
+
     </div>
 
     <!-- ==== Navigation -->
     <div class="menu-nav" id="menu-nav">
-        <!--  -->
-        <div class="void"></div>
-        <ul>
-            <li>
-                <div>Menu Item</div>
-            </li>
-            <li>
-                <div>Menu Item</div>
-            </li>
-            <li>
-                <div>Menu Item</div>
-            </li>
-            <li>
-                <div>Menu Item</div>
-            </li>
-            <li>
-                <div>Menu Item</div>
-            </li>
-        </ul>
-        <!--  -->
+        <div class="void">
+            <!--  -->
+        </div>
+        <div>
+            <ul>
+                <li>
+                    <div>Menu Item</div>
+                </li>
+                <li>
+                    <div>Menu Item</div>
+                </li>
+                <li>
+                    <div>Menu Item</div>
+                </li>
+                <li>
+                    <div>Menu Item</div>
+                </li>
+                <li>
+                    <div>Menu Item</div>
+                </li>
+            </ul>
+        </div>
     </div>
     <!-- ==== Content -->
     <div class="content">
-
         <div class="cadCursor" id="cadCursor">
             <span class="top"></span>
             <span class="left"></span>
             <span class="picker"></span>
         </div>
 
-
-
-
     </div>
 
     <!-- ==== Footer -->
-    <div class="footer">
-        Collaborative mapping project for <br>
-        AH516 Course "Travelogues" <br>
-        Serife Elif Ozugur <br>
-        Gokce Naz Soysal <br>
-        Kutay Coskuner <br>
+    <!-- ==== Blackout -->
+    <div class="blackout" id="blackout">
+        <div class="void">
+            <!--  -->
+        </div>
+        <div>
+            Collaborative Mapping Project for <br>
+            AH516 Course Study "Travelogues" by <br>
+            Serife Elif Ozugur <br>
+            Gokce Naz Soysal <br>
+            Kutay Coskuner <br>
+        </div>
+
+        <a class="blackoutClose" href="#" onclick="toggleBlackOut()">Explore Map</a>
     </div>
 
     <!-- ==== Scripts -->
     <script src="scripts/main.js"></script>
     <script src="scripts/cursor.js"></script>
+    <script src="scripts/jQ-active.js"></script>
 </body>
 
 </html>

@@ -1,51 +1,53 @@
 #cadCursor {
+  background: #111;
+  margin: auto;
   float: right;
-  width: 80%;
-  height: 100vh;
-  pointer-events: none;
-  z-index: 10;
-  cursor: none;
-}
-
-.top {
-  will-change: transform;
-  position: absolute;
-  display: block;
-  top: 0;
-  left: 0;
   width: 100%;
-  height: 0;
-  transform: translateY(50vh);
-  border: none;
-  /* border-bottom: 1px solid white; */
+  height: 100%;
+  pointer-events: none;
+  z-index: 6;
 }
 
-.left {
-  will-change: transform;
-  position: absolute;
-  display: block;
-  top: 0;
-  left: 0;
-  width: 0;
-  height: 100vh;
-  transform: translateX(50vw);
-  border: none;
-  border-right: 1px solid rgba(255, 255, 255, .4);
-}
+#cadCursor .top {
+    will-change: transform;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    transform: translateY(50vh);
+    border: none;
+    /* border-bottom: 1px solid white; */
+  }
 
-.picker {
-  /* will-change: transform; */
-  border: 1px solid white;
-  background: white;
-  width: .2rem;
-  height: .2rem;
-  border-radius: 50%;
-  position: absolute;
-  left: 0;
-  top: 0;
-  /* transform: translate(50vw, 50vh); */
-  margin: 0 0 0 -.1rem;
-}
+#cadCursor .left {
+    will-change: transform;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100vh;
+    transform: translateX(50vw);
+    border: none;
+    border-right: 1px solid rgba(255, 255, 255, 0.4);
+    transition: all 0.02s;
+  }
+
+#cadCursor .picker {
+    /* will-change: transform; */
+    border: 1px solid white;
+    background: white;
+    width: 0.2rem;
+    height: 0.2rem;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    /* transform: translate(50vw, 50vh); */
+    margin: 0 0 0 -0.1rem;
+  }
 
 /* #marko {
     display: block;
