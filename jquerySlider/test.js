@@ -1,9 +1,6 @@
 $(document).ready(function($) {
-
-    // SliderTest1
     $("#slider1").slider();
 
-    // SliderTest2
     var handle = $( "#custom-handle" );
     $( "#slider2" ).slider({
       create: function() {
@@ -13,8 +10,7 @@ $(document).ready(function($) {
         handle.text( ui.value );
       }
     });
-    
-    // RangeSlider
+
     $( "#slider-range" ).slider({
         range: true,
         min: 1420,

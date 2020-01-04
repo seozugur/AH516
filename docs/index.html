@@ -8,6 +8,8 @@
     <title>AH516-Travelogues</title>
     <link rel="stylesheet" href="style/main.css">
     <link rel="stylesheet" href="style/cursor.css">
+    <link rel="stylesheet" href="style/rangeSlider.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 </head>
 
 <body>
@@ -53,6 +55,7 @@
             </ul>
         </div>
     </div>
+
     <!-- ==== Content -->
     <div class="content">
         <div class="cadCursor" id="cadCursor">
@@ -76,19 +79,19 @@
             </div>
         </div>
 
-        <div class="timeline-scale">
-            <div class="nstSlider" data-range_min="-10" data-range_max="100" data-cur_min="20" data-cur_max="80">
-
-                <div class="bar"></div>
-                <div class="leftGrip"></div>
-                <div class="rightGrip"></div>
-            </div>
-            <div class="leftLabel" />
-            <div class="rightLabel" />
-
+        <div class="timeline-rangeSlider">
+            <!-- rangeslider -->
+            <p>
+                <label for="amount">Display Years Between</label>
+                <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
+            </p>
+    
+            <div id="slider-range"></div>
+    
         </div>
-
     </div>
+
+    
 
     <!-- ==== Footer -->
     <!-- ==== Blackout -->
@@ -110,8 +113,9 @@
     <!-- ==== Scripts -->
     <script src="scripts/main.js"></script>
     <script src="scripts/cursor.js"></script>
-    <script src="scripts/jQuery.js"></script>
-    <script src="scripts/jq-active.js"></script>
+    <!-- <script src="scripts/jQuery.js"></script> -->
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="scripts/jq-slider.js"></script>
 </body>
 
