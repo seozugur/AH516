@@ -1,9 +1,11 @@
 # Where I left
 
 # Todo
-- Add navigation
-- Add scaleable timeline
 - Grid for years
+- Adjustable timeline
+- Dropdown for rangescale
+- graph for <category> section bar
+- show year on line
 
 # Problems
 
@@ -13,6 +15,8 @@
 >> Assume Unchanged
 
 # Completed
+- Add navigation
+- Add scaleable timeline
 
 # Nomenclature Hierarchy
 
@@ -25,6 +29,12 @@ Multi Handle Slider
 https://www.youtube.com/watch?v=1lsMbY4x89Q
 Example
 http://histography.io/
+Display horizontal even
+https://stackoverflow.com/questions/4108726/how-to-spread-elements-horizontally-evenly
+horizontal timeline
+https://www.youtube.com/watch?v=vOmetsY16nc
+JQueryUI
+https://jqueryui.com/tabs/
 
 
 # Structure

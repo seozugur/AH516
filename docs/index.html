@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="style/main.css">
     <link rel="stylesheet" href="style/cursor.css">
     <link rel="stylesheet" href="style/rangeSlider.css">
+    <link rel="stylesheet" href="style/contentTimeline.css">
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 </head>
 
@@ -58,40 +59,77 @@
 
     <!-- ==== Content -->
     <div class="content">
+
+        <!-- CadCursor -->
         <div class="cadCursor" id="cadCursor">
             <span class="top"></span>
             <span class="left"></span>
             <span class="picker"></span>
         </div>
 
+        <!-- Timeline -->
         <div class="content-timeline">
-            <div class="year 1400">
-                test 1
-            </div>
-            <div class="year 1400">
-                test 2
-            </div>
-            <div class="year 1400">
-                test 3
-            </div>
-            <div class="year 1400">
-                test 4
+            <div class="timeline-container">
+                <div class="timeline-line">
+                    <div class="year">
+                        <span>1420</span>
+                        <div class="traveller">
+                            <a href="#"></a>
+                            <img src="" alt="">
+                            <span>Traveller</span>
+                        </div>
+                    </div>
+                    <div class="year">
+                        <span>1420</span>
+                        <div class="traveller">
+                            <a href="#"></a>
+                            <img src="" alt="">
+                            <span>Traveller</span>
+                        </div>
+                    </div>
+                    <div class="year">
+                        <span>1420</span>
+                        <div class="traveller">
+                            <a href="#"></a>
+                            <img src="" alt="">
+                            <span>Traveller</span>
+                        </div>
+                    </div>
+                    <div class="year">
+                        <span>1420</span>
+                        <div class="traveller">
+                            <a href="#"></a>
+                            <img src="" alt="">
+                            <span>Traveller</span>
+                        </div>
+                    </div>
+                    <div class="year">
+                        <span>1420</span>
+                        <div class="traveller">
+                            <a href="#"></a>
+                            <img src="" alt="">
+                            <span>Traveller</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
+        <div id="info"></div>
+
+        <!-- Rangeslider -->
         <div class="timeline-rangeSlider">
-            <!-- rangeslider -->
             <p>
                 <label for="amount">Display Years Between</label>
                 <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
             </p>
-    
+
             <div id="slider-range"></div>
-    
+
         </div>
     </div>
 
-    
+
 
     <!-- ==== Footer -->
     <!-- ==== Blackout -->
@@ -113,10 +151,20 @@
     <!-- ==== Scripts -->
     <script src="scripts/main.js"></script>
     <script src="scripts/cursor.js"></script>
-    <!-- <script src="scripts/jQuery.js"></script> -->
+    <script src="scripts/mousePos.js"></script>
+    <script src="scripts/jQuery.js"></script>
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="scripts/jq-slider.js"></script>
+
+    <script>
+
+        $(".content-timeline .year > span").on("mouseenter mouseleave", function(e){
+            $(".content-timeline .year.active").removeClass("active");
+            $(this).parent().addClass("active");
+        });
+    </script>
+
 </body>
 
 </html>
