@@ -62,6 +62,7 @@
 
         <!-- CadCursor -->
         <div class="cadCursor" id="cadCursor">
+            <div class="current-year" id="current-year"></div>
             <span class="top"></span>
             <span class="left"></span>
             <span class="picker"></span>
@@ -115,8 +116,6 @@
             </div>
         </div>
 
-        <div id="info"></div>
-
         <!-- Rangeslider -->
         <div class="timeline-rangeSlider">
             <p>
@@ -158,10 +157,19 @@
     <script src="scripts/jq-slider.js"></script>
 
     <script>
-
-        $(".content-timeline .year > span").on("mouseenter mouseleave", function(e){
+        $(".content-timeline .year > span").on("mouseenter mouseleave", function (e)
+        {
             $(".content-timeline .year.active").removeClass("active");
             $(this).parent().addClass("active");
+        });
+
+        $(document).ready(function ()
+        {
+            $(this).on("mousemove", function (event)
+            {
+                var position = "X Coordinate: " + event.pageX;
+                $("div").filter("#current-year").text(position);
+            });
         });
     </script>
 

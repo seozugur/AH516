@@ -49,6 +49,16 @@
     margin: 0 0 0 -0.1rem;
   }
 
+#cadCursor .current-year {
+  display: block;
+  background: transparent;
+  color: #fdfdfd;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+
 /* #marko {
     display: block;
     position: fixed;

@@ -6,6 +6,7 @@
 - Dropdown for rangescale
 - graph for <category> section bar
 - show year on line
+- remove with click
 
 # Problems
 
@@ -35,6 +36,8 @@ horizontal timeline
 https://www.youtube.com/watch?v=vOmetsY16nc
 JQueryUI
 https://jqueryui.com/tabs/
+Display mouse coord
+https://stackoverflow.com/questions/32655654/display-mouse-position
 
 
 # Structure
