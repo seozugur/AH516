@@ -41,6 +41,26 @@
     display: inline-block;
 }
 
+.content-data .traveller img {
+    width: 30%;
+}
+
+.content-data .traveller a {
+    display: inline-block;
+    width: .1em;
+    height: .1em;
+    margin: 1px;
+    border: 1px solid #999;
+    border-radius: 50%;
+    background: #999;
+    cursor: pointer;
+}
+
+.content-data .traveller a:hover {
+    border: 1px solid #fdfdfd;
+    background: #fdfdfd;
+}
+
 /* ==== Content Timeline */
 .content-timeline {
     display: inline-block;
