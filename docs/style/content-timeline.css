@@ -50,7 +50,7 @@
 }
 
 .content-timeline .year {
-    color: #333;
+    color: #444;
     width: 2%;
     display: inline-block;
     position: relative;
@@ -58,6 +58,10 @@
     transition: width .5s;
     z-index: 1;
     margin-top: 1.5em;
+}
+
+.content-timeline .empty {
+    color: #111;
 }
 
 .content-timeline .year.active {
