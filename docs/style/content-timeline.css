@@ -74,10 +74,8 @@
 }
 
 .content-data .traveller .production img:hover {
-    width: em;
-    width: 200px;
-    height: 200px;
-    z-index: 25;
+    width: 100px;
+    height: 100px;
 }
 
 /* ==== Content Timeline */
