@@ -38,7 +38,7 @@ $(document).ready(function ($)
   $("#amount").change(function () {
     var alt = $('#amount').val().split(' ').slice(0)[0];
     var ust = $('#amount').val().split(' ').slice(0)[2];
-    for (var iii = 1420; iii <= 1520; iii++)
+    for (var iii = 1420; iii <= 1919; iii++)
        {
         var current = iii;
         var target = $("." + current.toString()).attr('class').split(' ').slice(0)[1];
