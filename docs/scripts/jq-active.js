@@ -1,8 +1,16 @@
 $(".year").hover(
     function() {
         $( this ).addClass('active');
+        //
+        var pickerEl = document.querySelectorAll('#cadCursor .picker')[0];
+        pickerEl.style.opacity = 0;
+        //
     }, function() {
         $( this ).removeClass('active');
+        //
+        var pickerEl = document.querySelectorAll('#cadCursor .picker')[0];
+        pickerEl.style.opacity = 1;
+        //
     }
 );
 
