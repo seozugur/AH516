@@ -68,6 +68,10 @@
     color: #fff;
 }
 
+.content-timeline .year.static {
+    color: #f6931f;
+}
+
 .content-timeline .year span {
     font-size: 0.6em;
     display: inline-block;
