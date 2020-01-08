@@ -47,27 +47,26 @@
 
 .content-data .traveller a {
     display: inline-block;
-    width: .1em;
-    height: .1em;
+    width: 3px;
+    height: 3px;
     margin: 1px;
     border: 1px solid #999;
-    border-radius: 50%;
     background: #999;
     cursor: pointer;
 }
 
 .content-data .traveller a:hover {
+    width: 4px;
+    height: 4px;
     border: 1px solid #fdfdfd;
     background: #fdfdfd;
 }
 
 .content-data .traveller .production img {
-    display: inline-block;
-    width: .1em;
-    height: .1em;
+    width: 5px;
+    height: 5px;
     margin: 1px;
     border: 1px solid #999;
-    border-radius: 50%;
     background: #999;
     cursor: pointer;
     transition: all .5s;
@@ -76,6 +75,7 @@
 .content-data .traveller .production img:hover {
     width: 100px;
     height: 100px;
+    border-radius: 50%;
 }
 
 /* ==== Content Timeline */
