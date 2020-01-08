@@ -3,5 +3,6 @@ $(".year").on( "click", function() {
         $( this ).removeClass('static');
     });
         $( this ).addClass('static');
+        $('#content-data').html($(this).html());
     }
   );

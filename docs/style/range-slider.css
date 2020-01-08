@@ -32,7 +32,8 @@
 }
 
 .timeline-rangeSlider .ui-widget-header {
-    background-color: #ccc;
+    background-color: #fff;
+    opacity: 0.4;
 }
 
 /* .timeline-rangeSlider .ui-corner-all {

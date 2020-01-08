@@ -52,16 +52,16 @@
 #cadCursor .current-year {
   display: block;
   background: transparent;
-  color: #fdfdfd;
+  color: #999;
   position: absolute;
   left: 0;
   top: 0;
 }
 
 #cadCursor .travellers {
+  color: #999;
   display: block;
   background: transparent;
-  color: #fdfdfd;
   position: absolute;
   left: 0;
   top: 3em;

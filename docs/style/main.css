@@ -85,7 +85,7 @@ img {
 
 .menu-about {
     position: fixed;
-    top: 32px;
+    top: 64px;
     left: 0;
     padding: 0.6em;
     background: transparent;
@@ -100,7 +100,7 @@ img {
 
 .menu-range-slider {
     position: fixed;
-    top: 62px;
+    top: 32px;
     left: 0;
     padding: 0.6em;
     background: transparent;
