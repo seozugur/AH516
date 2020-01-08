@@ -50,20 +50,25 @@
 }
 
 .content-timeline .year {
+    color: #333;
     width: 2%;
     display: inline-block;
     position: relative;
     height: 100%;
     transition: width .5s;
     z-index: 1;
+    margin-top: 1.5em;
 }
 
-.content-timeline .year>span {
+.content-timeline .year.active {
+    color: #fff;
+}
+
+.content-timeline .year span {
     font-size: 0.6em;
-    display: block;
+    display: inline-block;
     font-weight: bold;
     position: absolute;
-    margin-top: 0px;
     width: 100%;
     cursor: pointer;
     transform: rotate(-90deg);
@@ -120,13 +125,10 @@
     color: #ddd;
 }
 
-.content-timeline .traveller a span:after {
+/* .content-timeline .traveller a span:after {
     margin-left: 5px;
-}
+} */
 
-.content-timeline .year.active {
-    width: 10%;
-}
 
 .content-timeline .year.active .traveller {
     display: block;
