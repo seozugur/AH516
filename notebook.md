@@ -12,6 +12,7 @@
 
 # Reminders
 -active
+- Yil divisionlari icin loop yapmak istiyorsan scriptleri aktive et google docs
 
 >> Assume Unchanged
 

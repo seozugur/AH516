@@ -5,7 +5,7 @@ $(document).ready(function ()
         var target = document.querySelectorAll('.active')[0];;
         if (target !== undefined)
         {
-            var position = $(".active").attr('class').split(' ').slice(0)[1];
+            var position = $(".active").attr('class').split(' ').slice(0)[2];
             $("div").filter("#current-year").text(position);
             // 
             var travellers = "";
