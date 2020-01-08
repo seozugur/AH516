@@ -41,7 +41,7 @@ $(document).ready(function ($)
     for (var iii = 1420; iii <= 1919; iii++)
        {
         var current = iii;
-        var target = $("." + current.toString()).attr('class').split(' ').slice(0)[1];
+        var target = $("." + current.toString()).attr('class').split(' ').slice(0)[2];
         // console.log(parseInt(target) + " " + parseInt(alt));
         if(parseInt(target) < parseInt(alt) || parseInt(target) > parseInt(ust)) {
           document.getElementById("y" + iii).style.display = "none";
