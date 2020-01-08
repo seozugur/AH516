@@ -58,6 +58,14 @@
   top: 0;
 }
 
+#cadCursor .travellers {
+  display: block;
+  background: transparent;
+  color: #fdfdfd;
+  position: absolute;
+  left: 0;
+  top: 3em;
+}
 
 /* #marko {
     display: block;

@@ -22,7 +22,7 @@ $(document).ready(function ($)
     range: true,
     min: 1420,
     max: 1919,
-    values: [1500, 1510],
+    values: [1420, 1919],
     slide: function (event, ui)
     {
       $("#amount").val("" + ui.values[0] + " - " + ui.values[1]).trigger('change');
