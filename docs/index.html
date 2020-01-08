@@ -26,6 +26,10 @@
             <img src="sources/icons/about.png" alt="menu" width="20px" height="20px" onclick="toggleBlackOut()">
         </div>
 
+        <div class="menu-range-slider">
+            <img src="sources/icons/adjustments.png" alt="menu" width="20px" height="20px" onclick="toggleRangeSlider()">
+        </div>
+
         <div class="void" id="tray-void">
             <!--  -->
         </div>
@@ -596,7 +600,7 @@
         </div>
 
         <!-- Rangeslider -->
-        <div class="timeline-rangeSlider">
+        <div class="timeline-rangeSlider" id="timeline-rangeSlider">
             <p>
                 <label for="amount">Display Years Between</label>
                 <input type="text" id="amount" style="border:0; color:#f6931f; font-weight:bold;">

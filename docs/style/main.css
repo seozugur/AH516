@@ -98,6 +98,21 @@ img {
     opacity: 0.6;
 }
 
+.menu-range-slider {
+    position: fixed;
+    top: 62px;
+    left: 0;
+    padding: 0.6em;
+    background: transparent;
+    z-index: 10;
+    opacity: 0;
+    transition: all 0.2s ease-in;
+}
+
+.menu-range-slider:hover {
+    opacity: 0.6;
+}
+
 /* ==== Navigation */
 
 .menu-nav {

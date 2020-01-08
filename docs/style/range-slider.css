@@ -7,6 +7,10 @@
     text-align: center;
 }
 
+.timeline-rangeSlider.disable {
+    display: none;
+}
+
 .timeline-rangeSlider p {
     padding-left: 10%;
 }
