@@ -1,12 +1,8 @@
 # Where I left
 
 # Todo
-- Grid for years
-- Adjustable timeline
 - Dropdown for rangescale
 - graph for <category> section bar
-- show year on line
-- remove with click
 
 # Problems
 
@@ -19,6 +15,9 @@
 # Completed
 - Add navigation
 - Add scaleable timeline
+- Grid for years
+- Adjustable timeline
+- show year on line
 
 # Nomenclature Hierarchy
 

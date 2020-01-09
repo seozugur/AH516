@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script type="text/javascript">
+window.onload = function() {
+
+var options = {
+	title: {
+		text: "Website Traffic Source"
+	},
+	data: [{
+			type: "pie",
+			startAngle: 45,
+			showInLegend: "true",
+			legendText: "{label}",
+			indexLabel: "{label} ({y})",
+			yValueFormatString:"#,##0.#"%"",
+			dataPoints: [
+				{ label: "Mythology", y: 36 },
+				{ label: "Ethnic Groups", y: 31 },
+				{ label: "Cultural Acts.(Events)", y: 7 },
+				{ label: "Religious Practice", y: 7 },
+				{ label: "Economic Activity", y: 6 },
+                { label: "Healthcare", y: 10 },
+                { label: "Military Institutions", y: 10 },
+                { label: "Diplomatic Relations", y: 10 },
+                { label: "Architecture & Built Environment", y: 10 },
+                { label: "Natural Environment", y: 10 },
+                { label: "Naval Structures", y: 10 },
+                { label: "Arts & Antiquities", y: 10 },
+				{ label: "Text", y: 3 }
+			]
+	}]
+};
+$("#chartContainer").CanvasJSChart(options);
+
+}
+</script>
+</head>
+<body>
+<div id="chartContainer" style="height: 370px; width: 100%;"></div>
+<script type="text/javascript" src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>  
+<script type="text/javascript" src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
+</body>
+</html>
