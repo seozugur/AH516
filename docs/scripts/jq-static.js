@@ -4,6 +4,8 @@ $(".year").on( "click", function() {
     });
         $( this ).addClass('static');
         $('#content-data').html($(this).html());
-        toggleContentContainer();
+        if($( this ).hasClass( "visited" )){
+            toggleContentContainer();
+        }
     }
   );

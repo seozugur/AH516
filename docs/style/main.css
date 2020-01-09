@@ -49,6 +49,15 @@ img {
     margin: 2%;
 }
 
+.blackout div a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.blackout div a:hover {
+    color: rgb(183, 218, 214);
+}
+
 .blackoutClose {
     padding: 0.3rem 2rem 0.5rem 2rem;
     text-decoration: none;
