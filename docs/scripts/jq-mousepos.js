@@ -9,7 +9,7 @@ $(document).ready(function ()
             $("div").filter("#current-year").text(position);
             // 
             var travellers = "";
-            $('div.active>div>span').each(function ()
+            $('div.active>div>a>span').each(function ()
             {
                 travellers = travellers + $(this).html() + "<br>";
             });

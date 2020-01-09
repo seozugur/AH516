@@ -50,21 +50,26 @@
     width: 100%;
 }
 
-.content-data span {
+.content-data a {
     display: none;
 }
 
-.content-data .traveller span {
+.content-data .traveller a {
     display: inline-block;
+    text-decoration: none;
+    color: #ffff;
+}
+
+.content-data .traveller a:hover {
+    color: rgb(183, 218, 214);
 }
 
 .content-data .traveller img {
     opacity: 1;
-    max-width: 400px;
-    width: 30%;
+    max-width: 360px;
 }
 
-.content-data .traveller a {
+.content-data .traveller .production a {
     display: inline-block;
     width: 3px;
     height: 3px;
@@ -78,7 +83,7 @@
     margin: auto;
 }
 
-.content-data .traveller a:hover {
+.content-data .traveller .production a:hover {
     width: 4px;
     height: 4px;
     border: 1px solid #fdfdfd;
