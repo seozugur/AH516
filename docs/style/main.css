@@ -158,11 +158,21 @@ img {
 
 }
 
+.menu-nav input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
 .menu-nav li:hover {
     cursor: pointer;
     text-shadow: 0 0 0.01em #fff, 0 0 0.5em #32c3d8;
     
 }
+
+
 
 /* ==== Content */
 
