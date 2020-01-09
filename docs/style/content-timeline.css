@@ -30,7 +30,7 @@
     height: 100%;
     text-align: center;
     background: #060606;
-    /* opacity: 0.9; */
+    opacity: 0.9;
     cursor: default;
     z-index: 9;
 }
@@ -58,9 +58,11 @@
     display: inline-block;
 }
 
-/* .content-data .traveller img {
+.content-data .traveller img {
+    opacity: 1;
+    max-width: 400px;
     width: 30%;
-} */
+}
 
 .content-data .traveller a {
     display: inline-block;
