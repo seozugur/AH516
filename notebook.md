@@ -1,8 +1,7 @@
 # Where I left
 
 # Todo
-- Dropdown for rangescale
-- graph for <category> section bar
+- linkleri ve grafikleri ekle
 
 # Problems
 
@@ -19,6 +18,8 @@
 - Grid for years
 - Adjustable timeline
 - show year on line
+- Dropdown for rangescale
+- graph for <category> section bar
 
 # Nomenclature Hierarchy
 
