@@ -151,28 +151,25 @@ img {
     font-size: 1em;
     letter-spacing: 0.05em;
     font-weight: 50;
-    transition: text-shadow 0.4s;
-    color: #fdfdfd;
+    transition: text-shadow 0.2s;
+    color: #d3d3d3;
     text-decoration: none;
     font-weight: lighter;
 
 }
 
-.menu-nav input {
-    position: absolute;
-    opacity: 0;
+.menu-nav .filter {
     cursor: pointer;
-    height: 0;
-    width: 0;
+    color: #fdfdfd;
+    text-shadow: 0 0 0.01em rgb(101, 226, 248), 0 0 0.8em #32c3d8; 
 }
 
 .menu-nav li:hover {
     cursor: pointer;
     text-shadow: 0 0 0.01em #fff, 0 0 0.5em #32c3d8;
+    text-shadow: 0 0 0.01em rgb(221, 168, 203), 0 0 0.5em rgb(209, 64, 202);  
     
 }
-
-
 
 /* ==== Content */
 
