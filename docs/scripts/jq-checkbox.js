@@ -10,7 +10,7 @@ $(':checkbox').change(function ()
     };
 
     if ($(".filter")[0]){
-        $('a').css("display", "none");
+        $('.production a').css("display", "none");
         $(".filter input").each(function (){
             $('.' + $(this).attr('id')).css("display", "inline-block");
     });
