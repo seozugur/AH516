@@ -10,6 +10,11 @@ function toggleBlackOut()
     document.getElementById('blackout').classList.toggle('active');
 }
 
+function toggleContentContainer()
+{
+    document.getElementById('content-data-container').classList.toggle('active');
+}
+
 function toggleRangeSlider()
 {
     document.getElementById('timeline-rangeSlider').classList.toggle('disable');

@@ -17,16 +17,33 @@
 } */
 
 /* ==== Data */
+.content-data-container {
+    display: none;
+}
+
+.content-data-container.active {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: #060606;
+    /* opacity: 0.9; */
+    cursor: default;
+    z-index: 9;
+}
+
 .content-data {
     display: flex;
     flex-direction: row;
     justify-content: center;
     text-align: center;
-    position:fixed;
-    left: 10.5rem;
+    position: absolute;
     top: 8rem;
-    width: 148vh;
-    height: 36vh;
+    width: 100%;
+    height: 100%;
 }
 
 .content-data div {
@@ -41,9 +58,9 @@
     display: inline-block;
 }
 
-.content-data .traveller img {
+/* .content-data .traveller img {
     width: 30%;
-}
+} */
 
 .content-data .traveller a {
     display: inline-block;
@@ -53,6 +70,10 @@
     border: 1px solid #999;
     background: #999;
     cursor: pointer;
+}
+
+.content-data #pieChart {
+    margin: auto;
 }
 
 .content-data .traveller a:hover {
