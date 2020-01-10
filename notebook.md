@@ -1,14 +1,10 @@
 # Where I left
 
 # Todo
-- linkleri ve grafikleri ekle
 
 # Problems
 
 # Reminders
--active
-- Yil divisionlari icin loop yapmak istiyorsan scriptleri aktive et google docs
-- 76-77
 
 >> Assume Unchanged
 
@@ -20,6 +16,8 @@
 - show year on line
 - Dropdown for rangescale
 - graph for <category> section bar
+- grafikleri ekle
+- linkleri ekle
 
 # Nomenclature Hierarchy
 
@@ -50,3 +48,9 @@ https://stackoverflow.com/questions/32655654/display-mouse-position
 - Content
 - Footer
 - Scripts
+
+# Focus
+1. your main research question(s)  
+2. your way of approaching the data and designing and/or developing the database  
+3. your strategy for visualizations  
+4. possible "new knowledge" emerging from your project.  

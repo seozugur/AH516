@@ -7,7 +7,7 @@ function toggleNav()
 
 function toggleBlackOut()
 {
-    document.getElementById('blackout').classList.toggle('active');
+    document.getElementById('blackout').classList.toggle('disabled');
 }
 
 function toggleContentContainer()

@@ -30,7 +30,7 @@
     height: 100%;
     text-align: center;
     background: #060606;
-    opacity: 0.9;
+    /* opacity: 0.9; */
     cursor: default;
     z-index: 9;
 }

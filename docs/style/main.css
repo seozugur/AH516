@@ -23,11 +23,11 @@ img {
 }
 
 /* ==== Blackout */
-.blackout {
+.blackout.disabled {
     display:none;
 }
 
-.blackout.active {
+.blackout {
     display: block;
     position: absolute;
     top: 0;
